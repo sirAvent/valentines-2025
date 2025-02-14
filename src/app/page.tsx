@@ -1,5 +1,5 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Photo from "@/components/photo";
 import styles from "./page.module.css";
 
@@ -34,8 +34,6 @@ export default function Home() {
     }
   };
 
-  const example =
-    "https://kodakdigitizing.com/cdn/shop/articles/Screen_Shot_2022-06-06_at_11.18.33_AM_1024x1024.png?v=1654528731";
   return (
     <div
       className={styles.pageContainer}
