@@ -3,7 +3,8 @@
   height: 100vh;
   overflow: hidden;
   position: relative;
-  background-image: url('https://png.pngtree.com/png-vector/20240613/ourmid/pngtree-softly-crumpled-pastel-pink-paper-a-textured-background-png-image_12449358.png');
+  background-repeat: round;
+  background-image: url("https://png.pngtree.com/png-vector/20240613/ourmid/pngtree-softly-crumpled-pastel-pink-paper-a-textured-background-png-image_12449358.png");
 }
 
 .pageFlip {
@@ -20,7 +21,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 2rem;
+  font-family: "Permanent Marker", serif;
   /* Ensure pages are not flipped */
   transform: rotateY(0deg);
 }
